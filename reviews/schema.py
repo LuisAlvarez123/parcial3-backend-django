@@ -8,8 +8,6 @@ from .models import Category, Movie, Review, User
 from django.utils import timezone
 
 # Querys
-
-
 class CategoryType(DjangoObjectType):
     class Meta:
         model = Category
